@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar {
+    list-style-type: none;
+    border-radius: 25px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    border-radius: 25px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: white;
+    color: black;
+}
+
+#navbar .active {
+    background-color: black;
+    color: white;
+}
